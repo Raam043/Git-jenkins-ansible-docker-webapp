@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: rnb
   tasks:
     - name: stop container
       shell:  docker container stop rockstar-container                    #name of container 
