@@ -5,6 +5,6 @@
     - name: remove container
       shell: docker container rm rockstar-container
     - name: remove docker image
-      shell: docker image rm vikashashoke/docker-job                            #name of images (docker images)
+      shell: docker image rm raam043/docker-job                            #name of images (docker images)
     - name: create new container
-      shell: docker container run -itd --name rockstar-container -p 9000:80 vikashashoke/docker-job     #(docker-job>> name of jenkins job)
+      shell: docker container run -itd --name rockstar-container -p 9000:80 raam043/docker-job     #(docker-job>> name of jenkins job)
