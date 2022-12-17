@@ -7,4 +7,4 @@
    - name: remove docker image
      shell: docker image rmi raam043/docker_image
    - name: create new container
-     shell: docker container run -itd --name mydockercontainer -p 900:80 raam043/docker_image
+     shell: docker container run -itd --name mydockercontainer -p 9000:80 raam043/docker_image
